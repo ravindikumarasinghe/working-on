@@ -37,7 +37,9 @@ p {
 #header {
     background-image: url("1.jpg.jpg");
     background-size: cover;
-}   
+    
+
+}
 #header img {
     display: block;
     width: 80px;
@@ -51,4 +53,9 @@ p {
     margin: 0;
     font-weight: bold;
     text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
 }
