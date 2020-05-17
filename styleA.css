@@ -59,3 +59,7 @@ p {
     text-align: right;
     margin-top: 10px;
 }
+#list{
+    list-style-type: none;
+    text-align: left;
+}
