@@ -34,3 +34,7 @@ p {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+#header {
+    background-image: url("1.jpg.jpg");
+    background-size: cover;
+}   
