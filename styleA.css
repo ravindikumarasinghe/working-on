@@ -75,3 +75,16 @@ p {
     color: white;
 
 }
+
+table {
+    width: 100%;
+    font-size: 11pt;
+    align-self: center;
+}
+table, th, td {
+    align-content: center;
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
