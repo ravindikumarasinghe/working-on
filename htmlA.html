@@ -118,6 +118,9 @@ function drawChart() {
   title: 'Skills with Years of Experience ',
   colors: ['#003F5C', '#58508D', '#BC5090', '#FF6361', '#FFA600']
 };
-    
+ // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+  chart.draw(data, { 
     </body>
 </html>
