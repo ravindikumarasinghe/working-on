@@ -87,11 +87,12 @@
             </table>
         </div>
         <!-- My Schedule section end -->
+
+         <!-- My Skills section start -->
          <div class="section">
          <h1><span>My Skills</span></h1>
-         </div>  
-    
-    <div class="section" id="piechart">
+         </div>   
+         <div class="section" id="piechart">
             
             <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
@@ -99,7 +100,7 @@
 // Load google charts
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
-    
+
 // Draw the chart and set the chart values
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
@@ -109,28 +110,30 @@ function drawChart() {
   ['PYTHON', 5],
   ['JAVASCRIPT', 3],
   ['CSS', 5]
-]);    
-    
-// Optional; add a title and set the width and height of the chart
+]);
+
+  // Optional; add a title and set the width and height of the chart
   var options = {
   width: 700,
   height: 700,
   title: 'Skills with Years of Experience ',
   colors: ['#003F5C', '#58508D', '#BC5090', '#FF6361', '#FFA600']
 };
- // Display the chart inside the <div> element with id="piechart"
+
+
+  // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
   chart.draw(data, options);
-  chart.draw(data, { 
-    width: 700,
-    height: 700,  
-     title: 'Skills with Years of Experience ',
+  chart.draw(data, {
+  width: 700,
+  height: 700,
+  title: 'Skills with Years of Experience ',
   colors: ['#003F5C', '#58508D', '#BC5090', '#FF6361', '#FFA600'],
   is3D: true
 });
 }
 </script>
         </div>
-        <!-- My Skills section end -->    
+        <!-- My Skills section end -->
     </body>
 </html>
